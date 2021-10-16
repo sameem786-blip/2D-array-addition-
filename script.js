@@ -47,11 +47,21 @@ const cal = () => {
         [0,0,0]
     ];
 
+    // m3 = m1.map((row,index)=>{
+    //     row.map((el,i)=>{
+    //         el + m2[index][i];
+    //     })
+    // })
+
+    // console.log(m3);
+
+    
     for(let i=0;i<m1.length;i++){
         for(let j=0;j<m2.length;j++){
             m3[i][j] = m1[i][j] + m2[i][j]
         }
     }
+    
 
     document.getElementById("m3_r1c1").value = m3[0][0];
     document.getElementById("m3_r1c2").value = m3[0][1];

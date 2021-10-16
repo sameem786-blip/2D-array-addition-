@@ -62,7 +62,12 @@ body{
     border-bottom: 1px solid orangered;
     background: transparent;
     color: white;
+    /* pointer-events: none; */
     
+}
+
+.out{
+    pointer-events: none;
 }
 
 .c2{
