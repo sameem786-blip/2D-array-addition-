@@ -10,44 +10,44 @@ body{
 }
 
 .one{
-    border: 1px solid orangered;
     color: white;
     display: grid;
     grid-template-columns: 2fr 0.5fr 2fr;
-    margin-top: 60px;
+    margin-top: 175px;
 }
 .equal{
-    border: 1px solid orangered;
     color: white;
     margin-top: 60px;
+    margin-top: 175px;
     
 }
 .m3{
-    border: 1px solid orangered;
     color: white;
     margin-top: 60px;
+    margin-top: 175px;
 }
 
 .m1{
-    border: 1px solid orangered;
     color: white;
 }
 
 .add{
-    border: 1px solid orangered;
     color: white;
 }
 
 .m2{
-    border: 1px solid orangered;
     color: white;
 }
 
 .add_sign{
     margin-left: 35px;
+    margin-top: 115px;
+    color: orangered;
 }
 .equal_sign{
     margin-left: 35px;
+    margin-top: 115px;
+    color: orangered;
 }
 
 .r1{
@@ -55,16 +55,34 @@ body{
 }
 
 .c1{
-    width: 20px;
+    width: 30px;
     margin-left: 100px;
+    outline: none;
+    border: transparent;
+    border-bottom: 1px solid orangered;
+    background: transparent;
+    color: white;
+    
 }
 
 .c2{
-    width: 20px;
+    width: 30px;
+    margin-left: 50px;
+    outline: none;
+    color: white;
+    border: transparent;
+    border-bottom: 1px solid orangered;
+    background: transparent;
 }
 
 .c3{
-    width: 20px;
+    width: 30px;
+    margin-left: 50px;
+    outline: none;
+    color: white;
+    border: transparent;
+    border-bottom: 1px solid orangered;
+    background: transparent;
 }
 
 .r2{
@@ -73,4 +91,30 @@ body{
 .r3{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.submit_btn{
+    display: flex;
+    flex-direction: row;
+    width: 149%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 70px;
+    width: 200px;
+    border-radius: 4px;
+    border: 2px solid orangered;
+    background: transparent;
+    color: white;
+    transition: 0.1s;
+}
+
+.btn:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+    border: 2px solid white;
+    color: orangered;
 }
